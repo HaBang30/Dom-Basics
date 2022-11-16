@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM Basics</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Demo event click -->
+    <!-- <p onclick="clickMe()"> Click Me</p>
+    <p id="demo1">Click</p> -->
+    <br>
+
+    <!-- Demo event onchange -->
+    <!-- <select  id="select" onchange="getValue()">
+        <option value="Capital">Ha Noi</option>
+        <option value="Hue Capital">Hue</option>
+        <option value="City Worth Living">Da Nang</option>
+        <option value="City Economy">TP.HCM</option>
+    </select> -->
+
+
+    <!-- Demo event onmouseover and onmouseout -->
+    <!-- <p id="demo">This is a day finally.</p> -->
+
+
+
+    <!-- Exercise: Check even number: -->
+    <!-- Describe: Write a program to check parity of an input number. Design reference as follows: -->
+    <!-- <h2>Nhập số:</h2> -->
+    <!-- <input type="number" name="number" id="number">
+    <button id="btn">Kiểm tra</button> -->
+
+    <!-- Exercise: Computer applications: -->
+    <!-- Describe: Create a simple calculator application to perform simple calculations. The application will have the following interface: -->
+
+    <h2>Calculator</h2>
+    <input type="number" name="number1" id ="number1">
+    <input type="number" name="number2" id ="number2">
+    <br> <br>
+    <button id="add" onclick="calculate(this)">Addition(+)</button>
+    <button id="subt" onclick="calculate(this)">Subtraction(-)</button>
+    <button id="multi" onclick="calculate(this)">Multiplication(x)</button>
+    <button id="divi" onclick="calculate(this)">Division(/)</button>
+
+    <h3 id="result"></h3>
+
+    <script src="./index.js"></script>
+</body>
+</html>
